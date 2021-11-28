@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header nav{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header nav .logo{
+    transition: .3s;
+}
+
+header nav .logo:hover{
+    transform: scale(1.1);
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin: 15px;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+header nav ul li a{
+    color: cornsilk;
+    font-size: 21px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent; 
+    padding: 5px;
+    transition: .3s;
+}
+
+header nav ul li a:hover{
+    color: rgb(255, 238, 0);
+    border-bottom: 2px solid yellow;
+}
+
+header #hero{
+    text-align: center;
+    margin-top: 150px;
+}
+
+header #hero h1{
+    color: rgb(255, 238, 0);
+    margin: 0;
+    font-size: 58px;
+}
+
+header #hero p{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+header #hero button{
+    text-transform: uppercase;
+    background-color: yellow;
+    font-size: 27px;
+    color: gray;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+
+header div .brujula{
+    transition: 3s;
+}
+
+header div .brujula:hover{
+    transform: scale(1.1);
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+main #planes{
+    background-color: #ffffff;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
+
+main #planes .container{
+    width: 1200px;
+    /* "margin: 0 auto;" es para centrar un elemento */
+    margin: 0 auto;
+    /* "background: ;" es para elegir color de fondo*/
+    /* "text-aling: center;" es para alinear el texto */
+    text-align: center;
+
+}
+
+main #planes .container h2{
+    color: black;
+    font-size: 40px;
+}
+
+main #planes .container p{
+    color: black;
+    font-size: 24px;
+}
+
+main #planes .container .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+main #planes .container .fila .col-4{
+    position: relative;
+}
+
+main #planes .container .fila .col-4 h3{
+    color: yellow;
+    font-size: 26px;
+    top: 90px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+#destinos{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-destinos.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 175px;
+}
+
+#destinos .container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+#destinos .container h2{
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+}
+
+#destinos .container p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#destinos .container .fila {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+#destinos .container .fila .col-6 {
+    position: relative;
+}
+
+#destinos .container .fila2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+#destinos .container .fila2 .col-6{
+    position: relative;
+}
+
+#contacto{
+    background: yellow;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+#contacto .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#contacto .container h2{
+    font-size: 40px;
+}
+
+#contacto .container p{
+    font-size: 22px;
+}
+
+#contacto .container form .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#contacto .container form .fila input{
+    width: 400px;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#contacto .container form .fila select{
+    width: 423px;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#contacto .container form button{
+    padding: 14px 30px;
+    font-size: 24px;
+    color: white;
+    background: rgb(158, 158, 0);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+footer{
+    background: black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
